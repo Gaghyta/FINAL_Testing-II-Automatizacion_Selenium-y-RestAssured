@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6f15eb-7643-491b-ae6b-6b1a63d64199" name="Changes" comment="agregado en RegisterTest métodos @AfterEach y @AfterAll">
+    <list default="true" id="2f6f15eb-7643-491b-ae6b-6b1a63d64199" name="Changes" comment="Agregado clase AccountPage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AccountPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,7 +287,42 @@
       <option name="project" value="LOCAL" />
       <updated>1701833182630</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="borrado lineas que no van de parcial previo y borrado de metodos para hacer click de parcial previo">
+      <created>1701834586785</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1701834586785</updated>
+    </task>
+    <task id="LOCAL-00017" summary="modificacion constructor en RegisterPage">
+      <created>1701834612233</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1701834612233</updated>
+    </task>
+    <task id="LOCAL-00018" summary="modificacion constructor en RegisterTest en metodo setUp">
+      <created>1701834657915</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1701834657915</updated>
+    </task>
+    <task id="LOCAL-00019" summary="en HomePage modificacion username 123456 pass">
+      <created>1701834713361</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1701834713361</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Agregado clase AccountPage">
+      <created>1701834734423</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1701834734423</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,7 +355,13 @@
     <MESSAGE value="modificacion RegisterTest métodos BeforeAll BeforeEach" />
     <MESSAGE value="modificacion variables static y agregado en RegisterTest métodos BeforeAll BeforeEach" />
     <MESSAGE value="agregado en RegisterTest métodos @AfterEach y @AfterAll" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregado en RegisterTest métodos @AfterEach y @AfterAll" />
+    <MESSAGE value="borrado lineas que no van de parcial previo" />
+    <MESSAGE value="borrado lineas que no van de parcial previo y borrado de metodos para hacer click de parcial previo" />
+    <MESSAGE value="modificacion constructor en RegisterPage" />
+    <MESSAGE value="modificacion constructor en RegisterTest en metodo setUp" />
+    <MESSAGE value="en HomePage modificacion username 123456 pass" />
+    <MESSAGE value="Agregado clase AccountPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregado clase AccountPage" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
