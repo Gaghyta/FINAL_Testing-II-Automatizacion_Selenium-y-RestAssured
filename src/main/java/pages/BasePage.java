@@ -79,7 +79,13 @@ public class BasePage {
         }
     }
 
+    public void refresh() {
+        driver.navigate().refresh();
+    }
 
+    public void close() {
+        driver.quit();
+    }
 
 
 }
