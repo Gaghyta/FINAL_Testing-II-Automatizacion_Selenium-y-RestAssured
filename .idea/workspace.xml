@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6f15eb-7643-491b-ae6b-6b1a63d64199" name="Changes" comment="modificacion metodo sendKey en basePage + localizadores en BasePage y métodos + RegisterTest y + RegisterPage">
+    <list default="true" id="2f6f15eb-7643-491b-ae6b-6b1a63d64199" name="Changes" comment="agregado en RegisterTest métodos @AfterEach y @AfterAll">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/RegisterTest.java" afterDir="false" />
     </list>
@@ -274,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701832674893</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="modificacion variables static y agregado en RegisterTest métodos BeforeAll BeforeEach">
+      <created>1701833141665</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701833141665</updated>
+    </task>
+    <task id="LOCAL-00015" summary="agregado en RegisterTest métodos @AfterEach y @AfterAll">
+      <created>1701833182630</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701833182630</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,7 +320,10 @@
     <MESSAGE value="creacion de HomePage con extends de BasePage e instanciacion del WebDriver" />
     <MESSAGE value="creacion de RegisterPage y creacion de RegisterTest" />
     <MESSAGE value="modificacion metodo sendKey en basePage + localizadores en BasePage y métodos + RegisterTest y + RegisterPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificacion metodo sendKey en basePage + localizadores en BasePage y métodos + RegisterTest y + RegisterPage" />
+    <MESSAGE value="modificacion RegisterTest métodos BeforeAll BeforeEach" />
+    <MESSAGE value="modificacion variables static y agregado en RegisterTest métodos BeforeAll BeforeEach" />
+    <MESSAGE value="agregado en RegisterTest métodos @AfterEach y @AfterAll" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregado en RegisterTest métodos @AfterEach y @AfterAll" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
