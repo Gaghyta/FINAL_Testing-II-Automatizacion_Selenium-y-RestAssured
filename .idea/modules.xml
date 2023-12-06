@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/src/FINAL-TESTING-II.iml" filepath="$PROJECT_DIR$/src/FINAL-TESTING-II.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FINAL_Testing-II-Automatizacion_Selenium-y-RestAssured.iml" filepath="$PROJECT_DIR$/FINAL_Testing-II-Automatizacion_Selenium-y-RestAssured.iml" />
     </modules>
   </component>
 </project>

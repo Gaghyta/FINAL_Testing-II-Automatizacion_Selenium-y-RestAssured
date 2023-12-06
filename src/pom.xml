@@ -9,8 +9,8 @@
 
     <properties>
         <junit.jupiter.version>5.10.1</junit.jupiter.version>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
@@ -30,6 +30,7 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.15.0</version>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
@@ -50,6 +51,18 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.1.2</version>
             <type>maven-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>4.15.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>4.15.0</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>
