@@ -33,7 +33,7 @@ public class RegisterTest {
 
     @BeforeEach
     public void setUp() throws InterruptedException {
-        RegisterPage registerPage = new RegisterPage(driver, wait);
+        RegisterPage registerPage = new RegisterPage(driver);
         registerPage.setUp();
         registerPage.url("https://parabank.parasoft.com/parabank/register.htm");
     }
@@ -50,9 +50,9 @@ public class RegisterTest {
         registerPage.fillRegisterFormUser();
         registerPage.submitFormRegister();
         //
-        test.log(Status.PASS, "Formulario de registro completado exitosamente");
+        test.log(Status.PASS, "FORMULARIO DE REGISTRO completado exitosamente");
         assertTrue(registerPage.getSuccessMessage().equals("Your account was created successfully. You are now logged in."));
-        test.log(Status.PASS, "Registro exitoso");
+        test.log(Status.PASS, "REGISTRO EXITOSO");
 
 
 
@@ -60,7 +60,7 @@ public class RegisterTest {
 
     @AfterEach
     public void cerrar() {
-        RegisterPage registerPage = new RegisterPage(driver, wait);
+        RegisterPage registerPage = new RegisterPage(driver);
         registerPage.close();
     }
 
