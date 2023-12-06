@@ -59,5 +59,18 @@ public class BasePage {
         return this.elementFind(locator).getText();
     }
 
+    public void clickMyAccount() throws InterruptedException {
+        this.clickOn(myAccount);
+    }
+
+    public void clickRegister() throws InterruptedException {
+        this.clickOn(registerMenu);
+    }
+
+    protected void sendKey(CharSequence key, By locator) throws InterruptedException {
+        this.elementFind(locator).sendKeys(key);
+    }
+
+
 
 }
