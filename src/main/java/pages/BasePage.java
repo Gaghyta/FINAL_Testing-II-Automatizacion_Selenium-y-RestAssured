@@ -11,9 +11,6 @@ import java.time.Duration;
 
 public class BasePage {
 
-    private By myAccount = By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a");
-    protected By registerMenu = By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a");
-
     public static WebDriver driver;
     public static WebDriverWait wait;
 
@@ -21,7 +18,9 @@ public class BasePage {
     public BasePage(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, Duration.ofMillis(5000));
+
     }
+
 
     public void setUp() {
         //System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
@@ -29,6 +28,7 @@ public class BasePage {
     }
 
     public WebElement webElement(By by) {
+
         return driver.findElement(by);
     }
     protected WebElement elementFind(By locator) throws InterruptedException {
@@ -56,13 +56,7 @@ public class BasePage {
         return this.elementFind(locator).getText();
     }
 
-    public void clickMyAccount() throws InterruptedException {
-        this.clickOn(myAccount);
-    }
 
-    public void clickRegister() throws InterruptedException {
-        this.clickOn(registerMenu);
-    }
 
     protected void sendKey( By locator, String text) {
         //this.elementFind(locator).sendKeys(key);
