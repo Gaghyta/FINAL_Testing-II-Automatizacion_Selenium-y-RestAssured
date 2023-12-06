@@ -10,13 +10,13 @@ public class AccountPage extends BasePage{
         super(driver);
     }
 
-    By accountTypeMenu = By.id("type");
+    By accountTypeSelector = By.id("type");
     By accountTypeSavings = By.xpath("//*[@id='type']//option[@value='1']");
     By openAccountButton = By.xpath("//*[@value='Open New Account']");
     By successMessage = By.xpath("//*[@id='rightPanel']//p[contains(text(),'Congratulations, your account is now open.')]");
 
     public void selectSavings() {
-        clickOn(accountTypeMenu);
+        clickOn(accountTypeSelector);
         clickOn(accountTypeSavings);
     }
 
