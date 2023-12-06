@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6f15eb-7643-491b-ae6b-6b1a63d64199" name="Changes" comment="creacion de RegisterPage y creacion de RegisterTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2f6f15eb-7643-491b-ae6b-6b1a63d64199" name="Changes" comment="modificacion metodo sendKey en basePage + localizadores en BasePage y métodos + RegisterTest y + RegisterPage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/${project.build.directory}/test-classes/chromedriver/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FINAL-TESTING-II.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FINAL-TESTING-II.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/FINAL-TESTING-II-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/RegisterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +120,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegisterTest.registerUser">
+  <component name="RunManager" selected="JUnit.RegisterTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.CarlaAntonini.Main" />
       <module name="FINAL_Testing-II-Automatizacion_Selenium-y-RestAssured" />
@@ -178,8 +169,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegisterTest.registerUser" />
         <item itemvalue="JUnit.RegisterTest" />
+        <item itemvalue="JUnit.RegisterTest.registerUser" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701823186464</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modificacion metodo sendKey en basePage + localizadores en BasePage y métodos + RegisterTest y + RegisterPage">
+      <created>1701832674893</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701832674893</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +303,8 @@
     <MESSAGE value="borrado de importaciones y comentarios en BasePage" />
     <MESSAGE value="creacion de HomePage con extends de BasePage e instanciacion del WebDriver" />
     <MESSAGE value="creacion de RegisterPage y creacion de RegisterTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion de RegisterPage y creacion de RegisterTest" />
+    <MESSAGE value="modificacion metodo sendKey en basePage + localizadores en BasePage y métodos + RegisterTest y + RegisterPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificacion metodo sendKey en basePage + localizadores en BasePage y métodos + RegisterTest y + RegisterPage" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />

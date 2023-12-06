@@ -1,11 +1,11 @@
 package selenium;
 
+import Reports.ExtentFactory;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-//import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.HomePage;
@@ -15,15 +15,28 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class RegisterTest {
-    private WebDriver driver;
-    private WebDriverWait wait;
+    public static  WebDriver driver;
+    public static  WebDriverWait wait;
 
     HomePage homePage;
     RegisterPage registerPage;
 
     ExtentTest test;
-    static ExtentSparkReporter spark = new ExtentSparkReporter("/REPORTES-ANTONINI/RegisterTest.html");
+    static ExtentSparkReporter info = new ExtentSparkReporter("/REPORTES-ANTONINI/RegisterTest.html");
     static ExtentReports extent;
+
+    @BeforeAll
+    public static void createReport() {
+        extent = ExtentFactory.getInstance();
+        extent.attachReporter(info);
+    }
+
+    @BeforeEach
+    public void setUp() throws InterruptedException {
+        RegisterPage registerPage = new RegisterPage(driver, wait);
+        registerPage.setUp();
+        registerPage.url("https://parabank.parasoft.com/parabank/register.htm");
+    }
 
     @Test
     //@Order(1)
@@ -44,8 +57,6 @@ public class RegisterTest {
 
 
     }
-
-
 
 
 }
