@@ -58,5 +58,16 @@ public class RegisterTest {
 
     }
 
+    @AfterEach
+    public void cerrar() {
+        RegisterPage registerPage = new RegisterPage(driver, wait);
+        registerPage.close();
+    }
+
+    @AfterAll
+    public static void reporte() {
+        extent.flush();
+    }
+
 
 }
