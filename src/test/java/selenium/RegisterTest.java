@@ -22,7 +22,7 @@ public class RegisterTest {
     RegisterPage registerPage;
 
     ExtentTest test;
-    static ExtentSparkReporter info = new ExtentSparkReporter("/REPORTES-ANTONINI/RegisterTest.html");
+    static ExtentSparkReporter info = new ExtentSparkReporter("target/REPORTES-ANTONINI/RegisterTest.html");
     static ExtentReports extent;
 
     @BeforeAll
@@ -40,11 +40,13 @@ public class RegisterTest {
 
     @Test
     //@Order(1)
+    @Tag("Registro")
     public void registerUser() throws InterruptedException {
         test = extent.createTest("PROCESO DE REGISTRO DEL USUARIO");
         test.log(Status.INFO, "Inicia el test...");
         // Sección del Home
         homePage.goToRegister();
+
         test.log(Status.PASS, "DIRECCIONAMIENTO AL FORMULARIO PARA EL REGISTRO");
         // Registro del usuario - RELLENO Y ENVÍO DE DATOS
         registerPage.fillRegisterFormUser();
