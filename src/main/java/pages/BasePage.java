@@ -64,8 +64,11 @@ public class BasePage {
         this.clickOn(registerMenu);
     }
 
-    protected void sendKey(CharSequence key, By locator) throws InterruptedException {
-        this.elementFind(locator).sendKeys(key);
+    protected void sendKey( By locator, String text) {
+        //this.elementFind(locator).sendKeys(key);
+        wait.until(ExpectedConditions.visibilityOf(webElement(locator)));
+        driver.findElement(locator).clear();
+        driver.findElement(locator).sendKeys(text);
     }
 
     public void waitTime() {

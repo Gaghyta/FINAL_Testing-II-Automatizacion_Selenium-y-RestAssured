@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6f15eb-7643-491b-ae6b-6b1a63d64199" name="Changes" comment="borrado de importaciones y comentarios en BasePage" />
+    <list default="true" id="2f6f15eb-7643-491b-ae6b-6b1a63d64199" name="Changes" comment="creacion de RegisterPage y creacion de RegisterTest">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/${project.build.directory}/test-classes/chromedriver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FINAL-TESTING-II.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FINAL-TESTING-II.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/FINAL-TESTING-II-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/maven-archiver/pom.properties" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,10 +108,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.119140625" />
     <property name="project.structure.side.proportion" value="0.20777643" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -116,7 +129,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RegisterTest.registerUser">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.CarlaAntonini.Main" />
       <module name="FINAL_Testing-II-Automatizacion_Selenium-y-RestAssured" />
@@ -127,6 +140,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FINAL-TESTING-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.RegisterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest.registerUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FINAL-TESTING-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.RegisterTest" />
+      <option name="METHOD_NAME" value="registerUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.RegisterTest.registerUser" />
+      <item itemvalue="JUnit.RegisterTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegisterTest.registerUser" />
+        <item itemvalue="JUnit.RegisterTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -214,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701822452022</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="creacion de HomePage con extends de BasePage e instanciacion del WebDriver">
+      <created>1701823186464</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701823186464</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,7 +303,9 @@
     <MESSAGE value="Sumar en BASE PAGE método base de ESPER" />
     <MESSAGE value="Sumar en BASE PAGE métodos refresh y close" />
     <MESSAGE value="borrado de importaciones y comentarios en BasePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="borrado de importaciones y comentarios en BasePage" />
+    <MESSAGE value="creacion de HomePage con extends de BasePage e instanciacion del WebDriver" />
+    <MESSAGE value="creacion de RegisterPage y creacion de RegisterTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de RegisterPage y creacion de RegisterTest" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
