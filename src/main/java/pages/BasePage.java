@@ -71,6 +71,15 @@ public class BasePage {
         this.elementFind(locator).sendKeys(key);
     }
 
+    public void waitTime() {
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 
 
 }
