@@ -24,7 +24,7 @@ public class HomePage extends BasePage {
     }
 
     public void login() {
-        sendKey(usernameFormField, "username1234");
+        sendKey(usernameFormField, "username123456");
         sendKey(passwordFormField, "password");
         clickOn(loginButton);
     }
