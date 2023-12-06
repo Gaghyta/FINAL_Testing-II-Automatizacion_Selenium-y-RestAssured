@@ -15,10 +15,9 @@ public class BasePage {
     public static WebDriverWait wait;
 
 
-    public BasePage(WebDriver driver) {
+    public BasePage (WebDriver driver) {
         this.driver = driver;
-        wait = new WebDriverWait(driver, Duration.ofMillis(5000));
-
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
 
@@ -45,11 +44,11 @@ public class BasePage {
         driver.get(url);
     }
 
-    protected void sendText(String inputText, By locator) throws InterruptedException {
+    /*protected void sendText(String inputText, By locator) throws InterruptedException {
         wait.until(ExpectedConditions.presenceOfElementLocated(locator));
         this.elementFind(locator).clear();
         this.elementFind(locator).sendKeys(inputText);
-    }
+    }*/
 
     protected String getText(By locator) throws InterruptedException {
         wait.until(ExpectedConditions.visibilityOf(webElement(locator)));
