@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6f15eb-7643-491b-ae6b-6b1a63d64199" name="Changes" comment="Agregado clase AccountPage">
+    <list default="true" id="2f6f15eb-7643-491b-ae6b-6b1a63d64199" name="Changes" comment="Agregado localizadores y metodos de AccountPage">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TransferFundsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reports/ExtentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reports/ExtentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/RegisterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701834734423</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Agregado localizadores y metodos de AccountPage">
+      <created>1701835456227</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1701835456227</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -361,7 +371,8 @@
     <MESSAGE value="modificacion constructor en RegisterTest en metodo setUp" />
     <MESSAGE value="en HomePage modificacion username 123456 pass" />
     <MESSAGE value="Agregado clase AccountPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregado clase AccountPage" />
+    <MESSAGE value="Agregado localizadores y metodos de AccountPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregado localizadores y metodos de AccountPage" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
